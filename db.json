@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "main__status": true,
+      "name": "Testbek",
+      "title": "Testlash",
+      "date": "2023-06-03",
+      "id": 1
+    },
+    {
+      "main__status": false,
+      "name": "Tohirjon",
+      "title": "Dasturlash",
+      "date": "2023-06-03",
+      "id": 2
+    }
+  ]
+}

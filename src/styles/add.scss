@@ -1,0 +1,22 @@
+.add{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  input, button{
+    width: 49%;
+    gap: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    padding: 10px 5px;
+  }
+  &__btn{
+    background-color: rgb(11, 89, 11);
+    color: white;
+    font-size: 18px;
+  }
+  input:focus{
+    outline: none;
+  }
+}

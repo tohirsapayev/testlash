@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  align-items: center;
+  .search{
+    width: 40%;
+    input{
+      border: 2px solid #e7e7e7;
+      padding: 8px 2px;
+      &:focus{
+        outline: none;
+      }
+    }
+    &__btn{
+      display: flex;
+      margin-left: 10px;
+      width: 60%;
+      justify-content: space-between;
+      align-items: center;
+      .btn{
+        padding: 8px 6px;
+        border-radius: 10px;
+        border: 2px solid #e7e7e7;
+        &.active, &:hover{
+          background-color: rgb(10, 10, 137);
+          color: white;
+        }
+      }
+    }
+  }
+}
